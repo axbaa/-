@@ -1,0 +1,104 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="1520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6F8"/>
+      <stop offset="0.52" stop-color="#FFE7EC"/>
+      <stop offset="1" stop-color="#FFD7E0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="261" y1="0" x2="261" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D62839"/>
+      <stop offset="1" stop-color="#B30F27"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE9A8"/>
+      <stop offset="0.48" stop-color="#F8D669"/>
+      <stop offset="1" stop-color="#D7A92A"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="600" y1="430" x2="600" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6C8B"/>
+      <stop offset="1" stop-color="#F04467"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1400" height="1800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#D98697" flood-opacity="0.32"/>
+    </filter>
+    <filter id="soft" x="-80" y="-80" width="1360" height="1760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1600" rx="48" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="1528" rx="36" stroke="#FFFFFF" stroke-opacity="0.86" stroke-width="2"/>
+
+  <g opacity="0.36">
+    <circle cx="180" cy="160" r="92" fill="#FFFFFF"/>
+    <circle cx="1032" cy="1420" r="120" fill="#FFFFFF"/>
+    <circle cx="1050" cy="260" r="74" fill="#FFD5DF"/>
+    <circle cx="150" cy="1280" r="60" fill="#FFD5DF"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M145 260C157 240 184 238 196 258C208 238 235 240 247 260C261 284 245 309 196 345C147 309 131 284 145 260Z" fill="#FF8EA7"/>
+    <path d="M1000 212C1008 199 1026 198 1034 212C1042 198 1060 199 1068 212C1078 229 1067 246 1034 271C1001 246 990 229 1000 212Z" fill="#FFC2CF"/>
+    <path d="M950 1360C962 1340 989 1338 1001 1358C1013 1338 1040 1340 1052 1360C1066 1384 1050 1409 1001 1445C952 1409 936 1384 950 1360Z" fill="#FF8EA7"/>
+    <path d="M126 1140C134 1127 152 1126 160 1140C168 1126 186 1127 194 1140C204 1157 193 1174 160 1199C127 1174 116 1157 126 1140Z" fill="#FFC2CF"/>
+  </g>
+
+  <g filter="url(#soft)" opacity="0.25">
+    <circle cx="600" cy="750" r="250" fill="#FF9EB3"/>
+  </g>
+
+  <rect x="432" y="116" width="336" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.9"/>
+  <text x="600" y="152" text-anchor="middle" fill="#E25574" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" letter-spacing="4">LOVE WINS</text>
+
+  <text x="600" y="258" text-anchor="middle" fill="#D6274B" font-size="86" font-weight="700" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif">&#25105;&#20204;&#39046;&#35777;&#21862;</text>
+  <text x="600" y="324" text-anchor="middle" fill="#9C5A69" font-size="30" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" letter-spacing="2">&#20174;&#27492;&#19968;&#23627;&#20004;&#20154; &#19977;&#39184;&#22235;&#23395; &#26397;&#26397;&#26286;&#26286;</text>
+
+  <g>
+    <path d="M472 532C498 488 557 484 584 525L600 549L616 525C643 484 702 488 728 532C758 583 723 649 600 748C477 649 442 583 472 532Z" fill="url(#heart)"/>
+    <path d="M495 550C513 520 553 518 571 546L600 590L629 546C647 518 687 520 705 550C727 586 704 627 600 709C496 627 473 586 495 550Z" fill="#FFB6C5" fill-opacity="0.32"/>
+  </g>
+
+  <g>
+    <circle cx="520" cy="514" r="52" stroke="url(#gold)" stroke-width="16"/>
+    <circle cx="680" cy="514" r="52" stroke="url(#gold)" stroke-width="16"/>
+    <path d="M532 480L562 452L562 474L592 474L568 496L576 530L548 512L520 530L528 496L504 474L534 474L534 452L564 480Z" fill="url(#gold)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(305 790) rotate(-8 261 191)">
+      <rect width="522" height="382" rx="28" fill="url(#card)"/>
+      <rect x="18" y="18" width="486" height="346" rx="18" stroke="#F3DFA5" stroke-opacity="0.9" stroke-width="2"/>
+      <circle cx="261" cy="112" r="48" fill="none" stroke="url(#gold)" stroke-width="10"/>
+      <path d="M261 74L272 98H298L277 115L286 141L261 125L236 141L245 115L224 98H250L261 74Z" fill="url(#gold)"/>
+      <path d="M261 85C281 104 292 118 292 134C292 153 278 166 261 166C244 166 230 153 230 134C230 118 241 104 261 85Z" fill="url(#gold)" fill-opacity="0.18"/>
+      <text x="261" y="218" text-anchor="middle" fill="url(#gold)" font-size="76" font-weight="700" font-family="'Noto Serif SC', 'Songti SC', serif">&#32467;&#23130;&#35777;</text>
+      <text x="261" y="270" text-anchor="middle" fill="#F8EAC0" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" letter-spacing="2">Marriage Certificate</text>
+      <line x1="120" y1="310" x2="402" y2="310" stroke="#F5DB93" stroke-opacity="0.68" stroke-width="2"/>
+      <text x="261" y="338" text-anchor="middle" fill="#FFF7DE" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif">&#27492;&#29983;&#19982;&#20320; &#20849;&#36212;&#28010;&#28459;</text>
+    </g>
+
+    <g transform="translate(372 772) rotate(8 261 191)">
+      <rect width="522" height="382" rx="28" fill="url(#card)"/>
+      <rect x="18" y="18" width="486" height="346" rx="18" stroke="#F3DFA5" stroke-opacity="0.9" stroke-width="2"/>
+      <circle cx="261" cy="112" r="48" fill="none" stroke="url(#gold)" stroke-width="10"/>
+      <path d="M261 74L272 98H298L277 115L286 141L261 125L236 141L245 115L224 98H250L261 74Z" fill="url(#gold)"/>
+      <path d="M261 85C281 104 292 118 292 134C292 153 278 166 261 166C244 166 230 153 230 134C230 118 241 104 261 85Z" fill="url(#gold)" fill-opacity="0.18"/>
+      <text x="261" y="218" text-anchor="middle" fill="url(#gold)" font-size="76" font-weight="700" font-family="'Noto Serif SC', 'Songti SC', serif">&#32467;&#23130;&#35777;</text>
+      <text x="261" y="270" text-anchor="middle" fill="#F8EAC0" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" letter-spacing="2">Marriage Certificate</text>
+      <line x1="120" y1="310" x2="402" y2="310" stroke="#F5DB93" stroke-opacity="0.68" stroke-width="2"/>
+      <text x="261" y="338" text-anchor="middle" fill="#FFF7DE" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif">&#21512;&#27861;&#29980;&#34588; &#27491;&#24335;&#25345;&#35777;</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="265" y="1272" width="670" height="148" rx="32" fill="#FFFFFF" fill-opacity="0.82"/>
+    <rect x="287" y="1294" width="626" height="104" rx="22" stroke="#F2C2CF" stroke-width="2"/>
+    <text x="600" y="1346" text-anchor="middle" fill="#CF335A" font-size="52" font-weight="700" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif">2026.04.24</text>
+    <text x="600" y="1388" text-anchor="middle" fill="#9F6572" font-size="24" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" letter-spacing="3">&#32426;&#24565;&#26085;&#21487;&#25913; &#22995;&#21517;&#25991;&#26696;&#20063;&#21487;&#26367;&#25442;</text>
+  </g>
+
+  <g opacity="0.88">
+    <path d="M318 1466C338 1436 379 1433 399 1463C419 1433 460 1436 480 1466C503 1504 476 1533 399 1587C322 1533 295 1504 318 1466Z" fill="#FF7A96"/>
+    <path d="M720 1474C739 1446 778 1443 796 1470C815 1443 854 1446 873 1474C894 1508 870 1534 796 1584C722 1534 698 1508 720 1474Z" fill="#FFADC0"/>
+  </g>
+</svg>
